@@ -1,0 +1,112 @@
+:root{
+
+    --vermelho:#e50514;
+    --preto: #141414;
+}
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* Elementos Base */
+body{
+    background: var(--preto);
+    font-family: 'Arial',Times,serif;
+    color: white;
+}
+
+header .container{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+header nav{
+    margin-right: 600px;
+}
+
+header img{
+    width: 8%;
+    margin-left: 50px;
+}
+
+header nav a{
+    color:#AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color:#fff;
+    transition: .3s ease all;
+}
+
+/* Filme Principal */
+
+.container{
+    margin-left: 50px;
+}
+
+.film-principal .container{
+    width: 70%;
+}
+.film-principal{
+    font-size:16px;
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.100%)), url(../img/she.jpg);
+   
+    height:508px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.film-principal .description{
+    margin-top:10px;
+    margin-bottom: 40px;
+    width:50%;
+}
+
+.title {
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color:white;
+    margin-right: 15px;
+    padding: 15px 30px;
+    font-size:12px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.botao:hover{
+    background-color:white;
+    transition: .3s ease all;
+    color:black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.box-film{
+    height:100%;
+    width:100%;
+    display:block;
+}
+
+.carrousel-filmes{
+    margin-top: 5px;
+}
+
